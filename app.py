@@ -16,5 +16,6 @@ def predicted_DBS():
     q = float(request.form.get("q"))
     return(render_template("predicted_DBS.html", r = (-50.6*q)+90.2))
 
+
 if __name__ == "__main__":
     app.run()
